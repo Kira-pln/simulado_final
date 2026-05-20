@@ -10,7 +10,7 @@ questoes = [
 
 {
 "pergunta": """Questão 21
-(Correta: C)
+
 
 Segundo a Resolução CEE/SC n.° 100/2016, o público da Educação Especial é formado pelos estudantes com:""",
 "opcoes": [
@@ -25,7 +25,7 @@ Segundo a Resolução CEE/SC n.° 100/2016, o público da Educação Especial é
 
 {
 "pergunta": """Questão 22
-(Correta: B)
+
 
 Associe PBE e suas caracterizações:""",
 "opcoes": [
@@ -40,7 +40,7 @@ Associe PBE e suas caracterizações:""",
 
 {
 "pergunta": """Questão 23
-(Correta: B)
+
 
 Avaliação diagnóstica e de desenvolvimento:""",
 "opcoes": [
@@ -55,7 +55,7 @@ Avaliação diagnóstica e de desenvolvimento:""",
 
 {
 "pergunta": """Questão 24
-(Correta: D)
+
 
 Concentram-se em um comportamento específico a ser modificado:""",
 "opcoes": [
@@ -70,7 +70,7 @@ Concentram-se em um comportamento específico a ser modificado:""",
 
 {
 "pergunta": """Questão 25
-(Correta: E)
+
 
 Intervenção que ensina uso de figuras para comunicação:""",
 "opcoes": [
@@ -85,7 +85,7 @@ Intervenção que ensina uso de figuras para comunicação:""",
 
 {
 "pergunta": """Questão 26
-(Correta: B)
+
 
 Política Nacional de Educação Especial (2008):""",
 "opcoes": [
@@ -100,7 +100,7 @@ Política Nacional de Educação Especial (2008):""",
 
 {
 "pergunta": """Questão 27
-(Correta: E)
+
 
 AEE e estudantes com surdez:""",
 "opcoes": [
@@ -115,7 +115,7 @@ AEE e estudantes com surdez:""",
 
 {
 "pergunta": """Questão 28
-(Correta: B)
+
 
 Associação áreas Educação Especial:""",
 "opcoes": [
@@ -130,7 +130,7 @@ Associação áreas Educação Especial:""",
 
 {
 "pergunta": """Questão 29
-(Correta: A)
+
 
 Planejamento e avaliação no AEE:""",
 "opcoes": [
@@ -145,7 +145,7 @@ Planejamento e avaliação no AEE:""",
 
 {
 "pergunta": """Questão 30
-(Correta: A)
+
 
 Plano de Desenvolvimento Individual (PDI):""",
 "opcoes": [
