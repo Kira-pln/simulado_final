@@ -1,207 +1,267 @@
+# Simulado Questões 21 a 30 - Streamlit
+# Execute com:
+# streamlit run app.py
+
 import streamlit as st
 
-st.set_page_config(page_title="Simulado Concurso AEE", layout="wide")
+st.set_page_config(
+    page_title="Simulado - Questões 21 a 30",
+    layout="wide"
+)
 
-# =========================
-# QUESTÕES 21–30
-# =========================
+st.title("📚 Simulado - Questões 21 a 30")
+st.write("Responda as questões e confira seu desempenho ao final.")
 
 questoes = [
 
-{
-"pergunta": """Questão 21
+    {
+        "pergunta": """Segundo a Resolução CEE/SC n.° 100, de 13 de dezembro de 2016, o público da Educação Especial é formado pelos estudantes com:""",
+        "alternativas": {
+            "A": "Deficiência sensorial, intelectual e física e Transtorno do Espectro Autista (TEA).",
+            "B": "Deficiência intelectual e física, Transtorno do Espectro Autista (TEA), Transtorno de Déficit de Atenção/Hiperatividade (TDAH), Disortografia e Altas habilidades/Superdotação (AH/SD).",
+            "C": "Deficiência, Transtorno do Espectro Autista (TEA), Transtorno de Déficit de Atenção/Hiperatividade (TDAH) e Altas Habilidades/Superdotação (AH/SD).",
+            "D": "Deficiência sensorial, intelectual e física; Transtorno do Espectro Autista (TEA) e Dislexia e Discalculia.",
+            "E": "Deficiência sensorial, intelectual e física; Transtorno do Espectro Autista (TEA) e Altas Habilidades/Superdotação (AH/SD)."
+        },
+        "correta": "C"
+    },
 
+    {
+        "pergunta": """As Práticas Baseadas em Evidências (PBE) garantem que intervenções sejam fundamentadas em pesquisa rigorosa, promovendo resultados eficazes e otimizando recursos.
 
-Segundo a Resolução CEE/SC n.° 100/2016, o público da Educação Especial é formado pelos estudantes com:""",
-"opcoes": [
-"Deficiência sensorial, intelectual e física e TEA.",
-"Deficiência intelectual e física, TEA, TDAH, Disortografia e AH/SD.",
-"Deficiência, TEA, TDAH e Altas Habilidades/Superdotação.",
-"Deficiência sensorial, intelectual e física; TEA; Dislexia e Discalculia.",
-"Deficiência sensorial, intelectual e física; TEA e AH/SD."
-],
-"resposta": 2
-},
+Associe a segunda coluna de acordo com a primeira, relacionando a correspondência entre as PBE e suas respectivas caracterizações.
 
-{
-"pergunta": """Questão 22
+Primeira coluna: Práticas Baseadas em Evidência
 
+1. Intervenções Baseadas no Antecedente  
+2. Intervenção Naturalística  
+3. Instrução e Intervenção Mediadas por Pares
 
-Associe PBE e suas caracterizações:""",
-"opcoes": [
-"2 − 3 − 1",
-"2 − 1 − 3",
-"3 − 2 − 1",
-"3 − 1 − 2",
-"1 − 2 − 3"
-],
-"resposta": 1
-},
+Segunda coluna: caracterização
 
-{
-"pergunta": """Questão 23
+( ) Trata-se de uma coleção de práticas, incluindo arranjo ambiental e técnicas de interação implementadas durante rotinas diárias e atividades na sala de aula ou no ambiente doméstico do aluno.
 
+( ) Variedade de modificações feitas no ambiente/contexto em uma tentativa de alterar ou moldar o comportamento de um aluno.
 
-Avaliação diagnóstica e de desenvolvimento:""",
-"opcoes": [
-"F − F − V",
-"V − F − V",
-"V − F − F",
-"F − V − F",
-"V − V − F"
-],
-"resposta": 1
-},
+( ) A interação social entre pares é a característica definidora da intervenção. Na maioria das vezes, mas nem sempre, o colega do aluno é uma criança neurotípica da mesma idade geral.
 
-{
-"pergunta": """Questão 24
+Assinale a alternativa que apresenta a correta associação entre as colunas:""",
+        "alternativas": {
+            "A": "2 − 3 − 1.",
+            "B": "2 − 1 − 3.",
+            "C": "3 − 2 − 1.",
+            "D": "3 − 1 − 2.",
+            "E": "1 − 2 − 3."
+        },
+        "correta": "B"
+    },
 
+    {
+        "pergunta": """Os processos avaliativos são formados por dois distintos, porém encadeados, processos denominados de avaliação diagnóstica e avaliação de desenvolvimento.
 
-Concentram-se em um comportamento específico a ser modificado:""",
-"opcoes": [
-"Modelos Abrangentes",
-"Aprendizagem sem erro",
-"CA",
-"Práticas de Intervenção Focada",
-"PECS"
-],
-"resposta": 3
-},
+Acerca das especificidades de cada processo avaliativo, considere as afirmativas a seguir e registre V, para verdadeiras, e F, para falsas:
 
-{
-"pergunta": """Questão 25
+( ) A avaliação diagnóstica encaminhada por suspeita de TEA possui objetivo de identificar déficits relacionados à comunicação, interação social e ocorrência de comportamentos restritos, bem como possíveis prejuízos relacionados à linguagem e ao funcionamento intelectual.
 
+( ) A avaliação de desenvolvimento é iniciada com uma triagem com profissional capacitado para observar condições ambientais e cadastrar relatórios do educando.
 
-Intervenção que ensina uso de figuras para comunicação:""",
-"opcoes": [
-"Intervenção Focada",
-"Aprendizagem sem erro",
-"Comunicação Alternativa",
-"Modelos Abrangentes",
-"PECS"
-],
-"resposta": 4
-},
+( ) A avaliação de desenvolvimento busca caracterizar repertório comportamental atual do educando diagnosticado com TEA, seus comportamentos/habilidades emergentes e suas interações ambientais.
 
-{
-"pergunta": """Questão 26
+Assinale a alternativa que apresenta a sequência correta:""",
+        "alternativas": {
+            "A": "F − F − V.",
+            "B": "V − F − V.",
+            "C": "V − F − F.",
+            "D": "F − V − F.",
+            "E": "V − V − F."
+        },
+        "correta": "B"
+    },
 
+    {
+        "pergunta": """__________________ concentram-se especificamente em um comportamento que necessita ser reduzido, modificado ou intensificado.
 
-Política Nacional de Educação Especial (2008):""",
-"opcoes": [
-"III apenas",
-"I e II apenas",
-"I, II e III",
-"II e III apenas",
-"I apenas"
-],
-"resposta": 1
-},
+Assinale a alternativa que corretamente preenche a lacuna no excerto:""",
+        "alternativas": {
+            "A": "Modelos Abrangentes de Tratamento.",
+            "B": "Aprendizagem sem erro.",
+            "C": "CA (Comunicação Alternativa).",
+            "D": "Práticas de Intervenção Focada.",
+            "E": "PECS (Picture Exchange Communication System)."
+        },
+        "correta": "D"
+    },
 
-{
-"pergunta": """Questão 27
+    {
+        "pergunta": """______________________________ é uma intervenção comportamental que ensina o estudante a usar figuras/símbolos para se comunicar com outras pessoas.
 
+Assinale a alternativa que corretamente preenche a lacuna no excerto:""",
+        "alternativas": {
+            "A": "Práticas de Intervenção Focada.",
+            "B": "Aprendizagem sem erro.",
+            "C": "CA (Comunicação Alternativa).",
+            "D": "Modelos Abrangentes de Tratamento.",
+            "E": "PECS (Picture Exchange Communication System)."
+        },
+        "correta": "E"
+    },
 
-AEE e estudantes com surdez:""",
-"opcoes": [
-"I apenas",
-"I e II apenas",
-"I, II e III",
-"III apenas",
-"II e III apenas"
-],
-"resposta": 4
-},
+    {
+        "pergunta": """Acerca da Política Nacional de Educação Especial na Perspectiva da Educação Inclusiva (2008) e dos Recursos Pedagógicos e Tecnológicos para a Inclusão, analise as afirmações apresentadas a seguir:
 
-{
-"pergunta": """Questão 28
+I. A Política Nacional de Educação Especial na Perspectiva da Educação Inclusiva (2008) orienta a organização do Atendimento Educacional Especializado (AEE), preferencialmente, na rede regular de ensino, definindo-o como um serviço da educação especial que identifica, elabora e organiza recursos pedagógicos e de acessibilidade.
 
+II. O Sistema Braille e o Soroban são recursos pedagógicos essenciais para o estudante com deficiência visual no AEE, sendo o Soroban específico para o cálculo matemático.
 
-Associação áreas Educação Especial:""",
-"opcoes": [
-"1 − 2 − 3 − 4",
-"4 − 2 − 3 − 1",
-"2 − 1 − 4 − 3",
-"4 − 3 − 2 − 1",
-"3 − 4 − 1 − 2"
-],
-"resposta": 1
-},
+III. O atendimento educacional especializado é organizado para apoiar o desenvolvimento dos alunos, constituindo oferta e frequência obrigatória.
 
-{
-"pergunta": """Questão 29
+É correto o que se afirma em:""",
+        "alternativas": {
+            "A": "III, apenas.",
+            "B": "I e II, apenas.",
+            "C": "I, II e III.",
+            "D": "II e III, apenas.",
+            "E": "I, apenas."
+        },
+        "correta": "B"
+    },
 
+    {
+        "pergunta": """O AEE representa um espaço de construção de estratégias pedagógicas acessíveis e de valorização da diversidade.
 
-Planejamento e avaliação no AEE:""",
-"opcoes": [
-"V − F − V",
-"V − F − F",
-"F − V − F",
-"V − V − V",
-"F − F − V"
-],
-"resposta": 0
-},
+Sobre o Atendimento Educacional Especializado (AEE) de estudantes com Surdez, analise as afirmações apresentadas a seguir:
 
-{
-"pergunta": """Questão 30
+I. O professor do AEE de estudantes com surdez não tem como atribuição o ensino de Libras para o estudante com surdez, sendo esta função exclusiva do Intérprete/Tradutor de Libras (TIL), que atua na sala de aula comum.
 
+II. A abordagem bilíngue na educação de surdos considera a Língua Brasileira de Sinais (Libras) como Primeira Língua (L1) para o desenvolvimento cognitivo e linguístico, e a Língua Portuguesa escrita como Segunda Língua (L2), essencial para a participação social e acesso ao currículo.
 
-Plano de Desenvolvimento Individual (PDI):""",
-"opcoes": [
-"Elaboração colaborativa com metas e estratégias.",
-"Somente administrativo.",
-"Exclusivo do professor do AEE.",
-"Substitui planejamento da turma.",
-"Apenas para deficiência intelectual."
-],
-"resposta": 0
-},
+III. O público-alvo do AEE inclui o estudante com surdez ou deficiência auditiva, e o serviço deve prover recursos e estratégias para garantir sua acessibilidade curricular e comunicacional, inclusive o trabalho com a identidade e cultura surda.
 
+É correto o que se afirma em:""",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "I e II, apenas.",
+            "C": "I, II e III.",
+            "D": "III, apenas.",
+            "E": "II e III, apenas."
+        },
+        "correta": "E"
+    },
+
+    {
+        "pergunta": """Associe a segunda coluna de acordo com a primeira, relacionando as diferentes áreas e conceitos da Educação Especial com suas respectivas especificidades e recursos relacionados.
+
+Primeira coluna: áreas e conceitos
+
+1. Deficiência Visual (Baixa Visão)  
+2. Deficiência Intelectual  
+3. Transtorno do Espectro Autista (TEA)  
+4. Deficiência Múltipla
+
+Segunda coluna: especificidades e recursos
+
+( ) Condição que se caracteriza pela associação de duas ou mais deficiências que implicam em necessidades educacionais especiais mais complexas.
+
+( ) O trabalho do professor do AEE foca na mediação pedagógica para a construção do conhecimento, desenvolvimento da autonomia e de habilidades adaptativas, considerando o ritmo individual e o grau de comprometimento.
+
+( ) O trabalho do AEE, além do foco na comunicação e interação social, deve considerar a elaboração de estratégias para lidar com o perfil sensorial e a rigidez comportamental, podendo utilizar o Sistema PECS.
+
+( ) O uso de recursos ópticos e não ópticos e a prática de Orientação e Mobilidade (OM) são recursos importantes para a acessibilidade e autonomia.
+
+Assinale a alternativa que apresenta a correta associação entre as colunas:""",
+        "alternativas": {
+            "A": "1 − 2 − 3 − 4.",
+            "B": "4 − 2 − 3 − 1.",
+            "C": "2 − 1 − 4 − 3.",
+            "D": "4 − 3 − 2 − 1.",
+            "E": "3 − 4 − 1 − 2."
+        },
+        "correta": "B"
+    },
+
+    {
+        "pergunta": """Com relação ao Planejamento, Avaliação e Adequações Curriculares, considere as afirmativas a seguir e registre V, para verdadeiras, e F, para falsas:
+
+( ) O atendimento educacional especializado requer articulação entre professor do AEE, docentes da sala comum e família para identificação de necessidades específicas e definição de estratégias pedagógicas diferenciadas que promovam acessibilidade ao currículo.
+
+( ) As adequações curriculares devem ser realizadas nos aspectos avaliativos e de materiais, sendo a metodologia de ensino padronizada para todos os estudantes da classe comum.
+
+( ) A avaliação inicial deve identificar o nível de desenvolvimento real do estudante, quanto à estrutura da percepção, atenção, pensamento e linguagem, bem como as competências para a realização das atividades de vida prática escolar, subsidiando o planejamento do AEE.
+
+Assinale a alternativa que apresenta a sequência correta:""",
+        "alternativas": {
+            "A": "V − F − V.",
+            "B": "V − F − F.",
+            "C": "F − V − F.",
+            "D": "V − V − V.",
+            "E": "F − F − V."
+        },
+        "correta": "A"
+    },
+
+    {
+        "pergunta": """O Plano de Desenvolvimento Individual (PDI) é um instrumento central no AEE.
+
+Sobre o PDI, assinale a alternativa correta:""",
+        "alternativas": {
+            "A": "O PDI deve ser elaborado de forma colaborativa − envolvendo professor do AEE, família, equipe escolar e, quando possível, o estudante − e deve estabelecer objetivos, metas e estratégias individualizadas com prazos e formas de acompanhamento.",
+            "B": "O PDI tem caráter estritamente administrativo e serve apenas para justificar a presença do aluno no AEE; não precisa conter metas ou estratégias pedagógicas.",
+            "C": "O PDI é um documento exclusivo do professor do AEE, que o elabora sozinho para manter sigilo pedagógico; a família não participa de sua elaboração.",
+            "D": "O PDI substitui integralmente o planejamento da classe comum, de modo que o estudante atendido pelo AEE não participa do planejamento coletivo da turma.",
+            "E": "O PDI é obrigatório apenas para estudantes com deficiência intelectual e não é recomendado para outros públicos do AEE (por exemplo, surdez ou deficiência visual)."
+        },
+        "correta": "A"
+    }
 ]
 
-# =========================
-# SISTEMA
-# =========================
+respostas_usuario = {}
 
-if "respostas" not in st.session_state:
-    st.session_state.respostas = [None] * len(questoes)
+for i, questao in enumerate(questoes):
+    st.subheader(f"Questão {i+21}")
 
-st.title("Simulado Concurso AEE - Questões 21 a 30")
+    st.write(questao["pergunta"])
 
-for i, q in enumerate(questoes):
-    st.markdown(q["pergunta"])
-
-    resp = st.radio(
-        "Selecione a alternativa:",
-        [f"{chr(65+j)}) {op}" for j, op in enumerate(q["opcoes"])],
-        key=f"q{i}"
+    resposta = st.radio(
+        "Selecione uma alternativa:",
+        options=list(questao["alternativas"].keys()),
+        format_func=lambda x: f"{x}) {questao['alternativas'][x]}",
+        key=f"q_{i}"
     )
 
-    st.session_state.respostas[i] = ord(resp[0]) - 65
+    respostas_usuario[i] = resposta
+    st.divider()
 
-# =========================
-# RESULTADO
-# =========================
-
-if st.button("Finalizar Prova"):
-
+if st.button("Finalizar simulado"):
     acertos = 0
     erros = []
 
-    for i, q in enumerate(questoes):
-        if st.session_state.respostas[i] == q["resposta"]:
+    for i, questao in enumerate(questoes):
+        resposta_usuario = respostas_usuario[i]
+        resposta_correta = questao["correta"]
+
+        if resposta_usuario == resposta_correta:
             acertos += 1
         else:
-            correta = chr(65 + q["resposta"])
-            erros.append(f"Q{i+21} - correta: {correta}")
+            erros.append({
+                "questao": i + 21,
+                "marcada": resposta_usuario,
+                "correta": resposta_correta
+            })
 
-    st.subheader("Resultado Final")
+    st.success(f"✅ Você acertou {acertos} de {len(questoes)} questões.")
 
-    st.write(f"✅ Acertos: {acertos}/10")
-    st.write(f"📊 Aproveitamento: {(acertos/10)*100:.1f}%")
+    percentual = (acertos / len(questoes)) * 100
+    st.info(f"📊 Aproveitamento: {percentual:.1f}%")
 
     if erros:
-        st.write("❌ Questões erradas:")
-        for e in erros:
-            st.write(e)
+        st.error("❌ Questões erradas:")
+
+        for erro in erros:
+            st.write(
+                f"Questão {erro['questao']} → "
+                f"Você marcou: {erro['marcada']} | "
+                f"Correta: {erro['correta']}"
+            )
+    else:
+        st.balloons()
+        st.success("🎉 Parabéns! Você acertou todas!")
